@@ -1,7 +1,7 @@
 import re
 
 intencoes = {
-    r"(((A|a)tualiz|(M|m)ud|(A|a)lter|(T|t)roc)(?s).*((P|p)ix|(c|C)r(é|e)dito|(C|c)art|(D|d)(é|e)bito|(P|p)ag)|(desatualiz))": "atualizar_pagamento",
+    r"(((A|a)tualiz|(M|m)ud|(M|m)odific|(A|a)lter|(T|t)roc)(?s).*((P|p)ix|(c|C)r(é|e)dito|(C|c)art|(D|d)(é|e)bito|(P|p)ag)|(desatualiz))": "atualizar_pagamento",
     r"(status|rastre|(O|o)nde est)": "rastrear",
     r"((O|o)(i|i(ê|E)|ii|l(a|á)))": "oi"
 }
